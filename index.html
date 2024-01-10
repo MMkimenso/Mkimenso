@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>MK imenso, O seu portal 24h de entrega via delivery.</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Elfbar, Ignite, Maskking, BlackSheep, Vapesoul.">
+    <meta name="keywords" content="cigarro eletronico, vape, pod, pod descartavel">
+    <meta name="author" content="Cesar Moreira Maia">
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.pod24h.com.br/icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.pod24h.com.br/icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.pod24h.com.br/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-254341183-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-254341183-1');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4F4K9MVN8K">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4F4K9MVN8K');
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Page loading styles-->
+    <style>
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+      .page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #666276;;
+      }
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        border: .15em solid #bbb7c5;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      
+    </style>
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          var preloader = document.querySelector('.page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 2000);
+        };
+      })();
+      
+    </script>
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/nouislider/dist/nouislider.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/filepond/dist/filepond.min.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.css">
+  </head>
+  <!-- Body-->
+  <body>
+    <!-- Page loading spinner-->
+<!-- Navbar-->
+<header class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-scroll-header>
+  <div class="container">
+    <button class="navbar-brand me-3 me-xl-4" onclick="window.location.href='index.php.html'">
+      <img class="d-block" src="img/logomk.png" width="140" alt="Pod24h">
+    </button>
+  </div>
+    <a class="btn bg-success text-light  ms-2 order-lg-3" href="https://wa.me/5511981511199" target="_blank">Comprar <i class="fi-whatsapp"></i></a>
+    </div>
+</header>     
+     <!-- Sign Up Modal-->
+      <div class="modal fade" id="item_detail" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered p-2 my-0 mx-auto" style="max-width: 950px;">
+        
+
+          <div class="modal-content" id="id_item">
+          </div>
+        </div>
+      </div><main class="page-wrapper">
+        <!-- Sign Up Modal-->
+      <div class="modal fade" id="signup-modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered p-2 my-0 mx-auto" style="max-width: 950px;">
+          <div class="modal-content">
+            <div class="modal-body px-0 py-2 py-sm-0">
+              <button class="btn-close position-absolute top-0 end-0 mt-3 me-3" type="button" data-bs-dismiss="modal"></button>
+              <div class="row mx-0 align-items-center">
+                <div class="col-md-6 border-end-md p-4 p-sm-5">
+                  <div class="mt-sm-4 pt-md-3">Você já possui uma conta? <a href="index.html#signin-modal" data-bs-toggle="modal" data-bs-dismiss="modal">Entrar</a></div>
+                </div>
+                <div class="col-md-6 px-4 pt-2 pb-4 px-sm-5 pb-sm-5 pt-md-5"><!--<a class="btn btn-outline-info w-100 mb-3" href="#"><i class="fi-google fs-lg me-1"></i>Entre com Google</a><a class="btn btn-outline-info w-100 mb-3" href="#"><i class="fi-facebook fs-lg me-1"></i>Entre com Facebook</a>
+                  <div class="d-flex align-items-center py-3 mb-3">
+                    <hr class="w-100">
+                    <div class="px-3">Ou</div>
+                    <hr class="w-100">
+                  </div>
+                  -->
+                  <form class="needs-validation" action="https://www.pod24h.com.br/actions/cad_usuario.php" method="POST" novalidate>
+                    <div class="mb-4">
+                      <label class="form-label" for="signup-name">Nome Completo</label>
+                      <input class="form-control" name="nome" type="text" id="signup-name" placeholder="Escreva seu nome." required>
+                    </div>
+                    <div class="mb-4">
+                      <label class="form-label" for="signup-email">Seu e-mail</label>
+                      <input class="form-control" name="email" type="email" id="signup-email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="mb-4">
+                      <label class="form-label" for="signup-email">WhatsApp</label>
+                      <input class="form-control" name="celular" type="tel" id="cel" placeholder="Seu Whatsapp com DDD" required>
+                    </div>
+                    <div class="mb-4">
+                      <label class="form-label" for="signup-password">Senha </label>
+                      <div class="password-toggle">
+                        <input class="form-control" name="senha" type="password" id="signup-password" minlength="8" required>
+                        <label class="password-toggle-btn" aria-label="Show/hide password">
+                          <input class="password-toggle-check" type="checkbox"><span class="password-toggle-indicator"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="mb-4">
+                      <label class="form-label" for="signup-password-confirm">Confirme sua senha</label>
+                      <div class="password-toggle">
+                        <input class="form-control" name="senha" type="password" id="signup-password-confirm" minlength="8" required>
+                        <label class="password-toggle-btn" aria-label="Show/hide password">
+                          <input class="password-toggle-check" type="checkbox"><span class="password-toggle-indicator"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-check mb-4">
+                      <input class="form-check-input" type="checkbox" id="agree-to-terms" required>
+                      <label class="form-check-label" for="agree-to-terms">Eu aceito os <a href='index.html#'>Termos de uso</a> e <a href='index.html#'>Políticas de privacidade</a></label>
+                    </div>
+                    <div class="form-check mb-4">
+                    <div class="g-recaptcha" data-sitekey="6Ld4npAeAAAAAJhDXhU3WIB87Ar1AOi0r2ZU2DlU"></div>
+                    </div>
+
+                    <button class="btn btn-primary btn-lg w-100" type="submit">Registrar-se         </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+      $(document).ready(function () {
+        var input2 = document.querySelector("#signup-password");
+        input2.addEventListener("keypress", function(e) {
+            if(!checkChar(e)) {
+              e.preventDefault();
+          }
+        });
+
+        function checkChar(e) {
+            var char = String.fromCharCode(e.keyCode);
+          console.log(char);
+            var pattern = '[a-zA-Z0-9]';
+            if (char.match(pattern)) {
+              return true;
+          }
+        }
+          $("#cel").mask('00 00000-0000', {reverse: true});
+  });
+    </script>      <!-- Sign In Modal-->
+      <div class="modal fade" id="signin-modal" tabindex="-1" aria-hidden="true">
+      <script src="https://www.google.com/recaptcha/enterprise.js?render=6Ld7KZIeAAAAAOOy-pZcJpuz-Wq2VmuSTjsReHCI"></script>
+        <div class="modal-dialog modal-lg modal-dialog-centered p-2 my-0 mx-auto" style="max-width: 950px;">
+          <div class="modal-content">
+            <div class="modal-body px-0 py-2 py-sm-0">
+              <button class="btn-close position-absolute top-0 end-0 mt-3 me-3" type="button" data-bs-dismiss="modal"></button>
+              <div class="row mx-0 align-items-center">
+                <div class="col-md-6 border-end-md p-4 p-sm-5">
+                  <!-- <h2 class="h3 mb-4 mb-sm-5">Olá,<br>Entre na sua conta.</h2><img class="d-block mx-auto" src="img/signin-modal/signin.svg" width="344" alt="Illustartion">
+                  <div class="mt-4 mt-sm-5">Não tem uma conta? <a href="index.html#signup-modal" data-bs-toggle="modal" data-bs-dismiss="modal">Registre-se</a>, é gratuito</div> -->
+                </div>
+
+                <div class="col-md-6 px-4 pt-2 pb-4 px-sm-5 pb-sm-5 pt-md-5">    
+                      </div>
+                    </div>
+                    <!--
+                    <div class="form-check mb-4">
+                    <div class="g-recaptcha" data-sitekey="6Ld7KZIeAAAAAOOy-pZcJpuz-Wq2VmuSTjsReHCI"></div>
+                    </div>
+                    -->
+                    <button class="btn btn-primary btn-lg w-100" type="submit">Entrar         </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- Hero-->
+<section class="container my-5 pb-lg-4">
+  <div class="row pt-0 pt-md-2 pt-lg-0">
+
+    <!-- Logo para venda -->
+    <!-- <div class="col-xl-7 col-lg-6 col-md-5 order-md-2 mb-4 mb-lg-3"><img src="img/hero2.png" alt="Hero image"></div> -->
+    <div class="col-xl-5 col-lg-6 col-md-7 order-md-1 pt-xl-5 pe-lg-0 mb-3 text-md-start text-center">
+      <h1 class="display-4 mt-lg-5 mb-md-4 mb-3 pt-md-4 pb-lg-2">Delivery 24h</h1>
+      <p class="position-relative lead me-lg-n5">Faça seu pedido pelo nosso whatsapp e receba em minutos na sua casa.</p>
+  </div>
+  
+    </div>
+  </div>
+</section>
+
+      <section class="container mb-5 pb-md-4">
+      <div class="row g-4">
+      <h2 class="h3 mb-0 mt-3"> Todos produtos <i class="fi-list"></i></h2>
+
+
+      
+        <div>
+          <div class="list-group" >
+          
+            
+         
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='62'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_62/arquivos/LOSTMARYMO10k.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Lost Mary MO<br> <small> 10000 </small></h5>
+            <small>R$  119,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            A maior fabricante de cigarros eletrônicos dos últimos tempos acaba de trazer sua versão mais poderosa de um produto com linha já existente. Estou falando do pod descartável MO 10000. Sim, são literalmente 10000 tragadas que certamente não o abandonarão.
+<br>
+            Satisfaça seus desejos longe da combustão do cigarro comum e obtenha uma solução menos prejudicial que pode até ajudar a sessar o vício. Este produto contém 50 mg/mL de nicotina e deve ser usado somente por fumantes inveterados. Existem Diversos sabores a serem escolhidos pelo usuário. O dispositivo deve ser recarregado antes do uso.
+          </div>
+        </div>
+        </div>
+        </a>
+
+
+  
+         
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='61'  data-bs-toggle='modal'>
+            <div class='row'>
+                <div class='col-5'>
+                    <img class='elevation-2' src='sys/uploads/prod_61/arquivos/oxbar10k.jpg'>
+                </div>
+                <div class='col'>
+                    <div class='d-flex w-100 justify-content-between'>
+                        <h5 class='mb-1'>Oxbar Pod Juice<br> <small> 10000 </small></h5>
+                        <small>R$ 109,99</small>
+                    </div>
+                    <p class='mb-1'></p>
+                    <div class='text-beside-image'>
+                      Descubra o OXBAR Magic Maze Pro 10000 Descartável, uma inovação no mundo do vaping. Este dispositivo de alta capacidade, com 18mL de e-liquid pré-preenchido e uma potente concentração de nicotina de 50mg, promete entregar até 10.000 baforadas saborosas para uma experiência de vaping prolongada e agradável.
+                    </div>
+                </div>
+            </div>
+        </a>
+
+
+  
+         
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='60'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_60/arquivos/ignite8k.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Ignite<br> <small> 8000 </small></h5>
+            <small>R$  99,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            Na nova onda do momento Pod Descartável - Ignite V80 8000 puffs apresenta hardware totalmente novo e tecnologia de desenho automático para fornecer a experiência mais suave de vaporização sem carregar ou qualquer ajuste de configuração. Basta inspirar para ativar o dispositivo pré-preenchido. 
+            <br>
+            A bateria de 500mAh oferece sabores de em mais de 8000 baforadas, o suficiente para mantê-lo satisfeito por dias, com a facilidade caso acabar a bateria é só recarregar! Cada caneta contém 5% de nicotina sintética para uma experiência nic precisa do estilo de cigarro.
+          </div>
+        </div>
+        </div>
+        </a>
+
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='58'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_58/arquivos/pynepod.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Pyne Pod<br> <small> 8500 </small></h5>
+            <small>R$  89,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            O Pyne Pod 8500 é um dispositivo vaping inteligente e poderoso que oferece uma experiência vaping excepcional. Com seu modo boost, oferece sabores ricos e uma impressionante produção em nuvem. O aparelho apresenta um design atraente com display colorido, permitindo monitorar facilmente os níveis de líquido e bateria. Ele também possui uma porta de carregamento rápido de 30 minutos para maior conveniência. Com uma bateria de longa duração e capacidade de fornecer de 6.000 a 8.500 baforadas por dispositivo, dependendo do nível de potência, garante uma experiência de vaporização satisfatória.
+            <br>
+            A bateria integrada de 550mAh e o conteúdo de nicotina de 50MG (5,0%) melhoram ainda mais a experiência geral de vaporização. As funções do botão são intuitivas, permitindo verificar o status do dispositivo com um único clique, ajustar a tensão com um clique duplo e ligar ou desligar o dispositivo mantendo o botão pressionado por três segundos.
+          </div>
+        </div>
+        </div>
+        </a>
+
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='54'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_54/arquivos/elfbar10k.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Elfbar<br> <small> 10000 </small></h5>
+            <small>R$  94,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            A ELFBAR acaba de lançar o modelo ELF BAR BC 10000 PUFFS, composto por 10000 puffs (vaporadas), que certamente retomou a ELFBAR como a maior marca de pods internacionais do mundo.
+            <br>
+            Além disso, o ELFBAR BC 10000 possui uma bateria interna de 650mAh e 12mL de Juice nic salt. A força de nicotina é de 5,0%, o que é suficiente para saciar a vontade de vaporizar e também para que você deseje substituir o cigarro convencional!
+          </div>
+        </div>
+        </div>
+        </a>
+
+
+  
+         
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='53'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_53/arquivos/oxbar8k.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Oxbar<br> <small> 8000 </small></h5>
+            <small>R$  78,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            Descubra o Pod Descartável OXBAR G8000, um verdadeiro gigante com incríveis 8000 puffs, que alia uma aparência deslumbrante a um desempenho excepcional. 
+            <br>
+            Sua carcaça transparente e design colorido o destacam entre os demais produtos do mercado. Além disso, sua bobina de malha aprimorada proporciona uma experiência de sabor extremamente satisfatória e produção de vapor densa.
+          </div>
+        </div>
+        </div>
+        </a>
+
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='51'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_51/arquivos/ignite5000.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Ignite<br> <small> 5000 </small></h5>
+            <small>R$  69,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            O pod Ignite V50 é um vape descartável de grande sucesso da Ignite, com a durabilidade de 5000 puffs e toda a qualidade e sabor que são características da marca.
+            <br>
+            Esse modelo de pod é compacto e leve, com ótimas opções de sabores e com um design moderno em formato pen (caneta) que você pode levar no bolso e ter sempre com você. 
+            <br>
+            Um pod que proporciona praticidade e discrição para sua sessão: é só retirar da embalagem e começar a usar, em qualquer lugar.
+          </div>
+        </div>
+        </div>
+        </a>
+         
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='50'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_50/arquivos/funckyrepublic.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Funcky Republic<br> <small> 7000 </small></h5>
+            <small>R$  84,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            Apresentamos o Pod Descartável Funky Republic TI, uma escolha incrível para os entusiastas do vape que buscam uma experiência única e duradoura. Com uma capacidade impressionante de 7000 puffs, este dispositivo oferece sabor e vaporização excepcionais em cada inalação.
+            <br>
+            O Funky Republic TI foi cuidadosamente projetado com tecnologia avançada para proporcionar um sabor intenso e suave, garantindo uma experiência de vape prazerosa e satisfatória. Seu design compacto e moderno torna-o conveniente para uso diário, seja em casa, no trabalho ou em movimento.
+            <br>
+           Este pod descartável é a escolha perfeita para aqueles que desejam evitar o incômodo de recarregar e substituir bobinas. Com o Funky Republic TI, basta abrir a embalagem, aproveitar o sabor excepcional e descartá-lo de forma responsável quando atingir os 7000 puffs. 
+          </div>
+        </div>
+        </div>
+        </a>
+         
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='13'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_13/arquivos/lostmaryos5000.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Lost Mary<br> <small> 5000 </small></h5>
+            <small>R$  64,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside=image'>
+            Quando se trata de Pod Descartável Elf Bar Lost Mary OS 5000 Puffs – Elf bar é a melhor opção do mercado vape, você tem a confiança da marca Elf Bar e ainda mais opções para escolher.
+            Este novo e revolucionário pod dura mais! Pois é um pod recarregável e vem com muito mais essência e-juice do que os demais.
+            <br>
+            O Lost Mary Elf Bar conta com um recurso interessante que permite o seu usuário visualizar o indicador de bateria, este é um recurso totalmente novo no mundo dos descartáveis já que o vaper pode verificar os níveis de bateria enquanto utiliza o seu pod.
+            <br>
+            O Elf Bar Lost Mary tem um design quadrado porém compacto, arrojado, estiloso, moderno e sofisticado, cabe na palma da mão e é muito suave ao toque com ondulações para um encaixar de dedos mais ergonômico.
+          </div>
+        </div>
+        </div>
+        </a>
+  
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='10'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_10/arquivos/te5000.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Elfbar<br> <small> TE 5000 </small></h5>
+            <small>R$  59,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            O pod descartável TE 5000 puffs, da marca Elf Bar, é o descartável mais compacto que você já viu, ideal para você que não abre mão de carregar o seu pod descartável sempre com você. 
+            <br>
+            Desenvolvido em material resistente e com o tamanho perfeito para levar no bolso, o pod conta com um design delicado e charmoso, com formato de garrafinha: confortável e discreto durante o uso. 
+            <br>
+            Além disso, o modelo não deixa a desejar na extração de sabor, com uma bobina de malha com tecnologia para melhor apreciação de cada uma das 15 opções de sabores, com uma vaporização saudável e segura.
+          </div>
+        </div>
+        </div>
+        </a>
+
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='6'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_6/arquivos/vapesoul6500.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Vapesoul<br> <small> 6500 </small></h5>
+            <small>R$  64,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            O Vapesoul sempre representa muito em sabores e qualidade de bateria, e agora vem com seu novo Vapesoul 6500 Puff – V Ghost, como incriveis quantidades de puxadas, e com compartimento para carregar e botao para manuseio de ligar e desligar, fazendo assim, voce conseguir usar ele totalmente, sem desperdicio por faltar de bateria, adquira já o seu POD DESCARTAVEL VAPESOUL.
+          </div>
+        </div>
+        </div>
+        </a>
+
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='5'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_5/arquivos/ignite1500.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Ignite<br> <small> 1500 </small></h5>
+            <small>R$  44,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            O Ignite Pod, também conhecido como Pod System Ignite V15, é um cigarro eletrônico descartável leve, prático e fácil de ser levado para qualquer lugar.
+            <br>
+            Além disso, o Ignite Stig possui uma bateria interna de 850mAh e 5.1mL de Juice. A força de nicotina é de 5,0% e a nicotina de sal equivale a cerca de 4 maços de cigarros convencionais.
+            <br>
+            Com o Pod Descartável Ignite V15, você já tem o cartucho com e-liquid cheio! Desta forma, você não precisa se preocupar se o Juice acabar rapidamente.
+          </div>
+        </div>
+        </div>
+        </a>
+
+          <!-- Item-->
+          <a href='index.html#' class='list-group-item list-group-item-action flex-column align-items-start detail_item' id='1'  data-bs-toggle='modal'>
+          <div class='row'>
+          <div class='col-5'>
+          <img class=' elevation-2' src='sys/uploads/prod_1/arquivos/elfbar&#32;4000.jpg'>
+          </div>
+          <div  class='col'>
+          <div class='d-flex w-100 justify-content-between'>
+            <h5 class='mb-1'>Elfbar<br> <small> BC 4000 </small></h5>
+            <small>R$  49,99</small>
+          </div>
+          <p class='mb-1'></p>
+          <div class='text-beside-image'>
+            O pod Elfbar 4000 puffs faz parte da coleção BC Series, lançada pela empresa para atender todos os tipos de vapers com dispositivos que oferecem uma durabilidade maior, sem abrir mão da praticidade.
+            <br>
+            Esse pod descartável é pequeno e compacto, desenvolvido no formato de uma garrafinha que fica super confortável na mão, sendo leve o bastante para carregar no bolso ou na mochila.
+            <br>
+            Apesar de ser pequeno, o modelo otimiza bem o espaço formando um design colorido e suave, com opções de cores formando um degradê de tons e que você escolhe de acordo com o sabor.
+          </div>
+        </div>
+        </div>
+        </a>
+          </div>
+        </div>
+                <div class="d-flex align-items-center justify-content-between mb-3">
+        </div>
+              </div>
+      </section>
+
+      <section class="container mb-5 pb-2 pb-lg-4">
+        <div class="row g-4">
+        <h2 class="h3 mb-0">Parceiros <i class="fi-like"></i> </h2>
+        <div class="tns-carousel-wrapper tns-nav-outside tns-nav-outside-flush">
+          <div class="tns-carousel-inner" data-carousel-options="{&quot;items&quot;: 6, &quot;controls&quot;: false, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:3}, &quot;500&quot;:{&quot;items&quot;:4}, &quot;992&quot;:{&quot;items&quot;:5, &quot;gutter&quot;: 16}, &quot;1200&quot;:{&quot;items&quot;:6, &quot;gutter&quot;: 24}}}">
+            <div><a class="swap-image" ><img class="swap-to" src="img/marcas/blacksheep.png" alt="Logo" width="120"><img class="swap-from" src="img/marcas/blacksheepgray.png" alt="Logo" width="120"></a></div>
+            <div><a class="swap-image" ><img class="swap-to" src="img/marcas/ignite.png" alt="Logo" width="120"><img class="swap-from" src="img/marcas/ignite-gray.png" alt="Logo" width="120"></a></div>
+            <div><a class="swap-image" ><img class="swap-to" src="img/marcas/elfbar.png" alt="Logo" width="120"><img class="swap-from" src="img/marcas/elfbar-gray.png" alt="Logo" width="120"></a></div>
+            <div><a class="swap-image"><img class="swap-to" src="img/marcas/maskking.png" alt="Logo" width="120"><img class="swap-from" src="img/marcas/maskking-gray.png" alt="Logo" width="120"></a></div>
+            <div><a class="swap-image"><img class="swap-to" src="img/marcas/vapesoul.png" alt="Logo" width="120"><img class="swap-from" src="img/marcas/vapesoulgray.png" alt="Logo" width="120"></a></div>
+          </div>
+        </div>
+              </div>
+      </section>
+      
+</main>
+    
+    <!-- Footer-->
+    <footer class="footer bg-secondary pt-5">
+      <div class="container pt-lg-4 pb-4">
+
+
+        <div class="text-center fs-sm pt-4 mt-3 pb-2">&copy; Todos os direitos reservados a Mk imenso</div>
+      </div>
+    </footer>
+    <!-- Back to top button--><a class="btn-scroll-top" href="index.html#top" data-scroll><span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon fi-chevron-up">   </i></a>
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="vendor/nouislider/dist/nouislider.min.js"></script>
+    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <!-- Main theme script-->
+    <script src="js/theme.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+    <script>
+      $(document).ready(function () {
+        $.fn.calcular = function(n){
+          var total=0;
+            $('.total1').each(function(){
+            var valor = Number($(this).val());
+              if (!isNaN(valor)) total += valor;
+          });
+          var t=(total*n).toFixed(2);
+          document.getElementById('totgeral').value = t;
+          if(t==0){
+            $('#valgeral').text('0,00');
+          }else{
+          $('#valgeral').text(t);
+          }
+
+        };
+        $(document).on('click','.detail_item', function(){
+          var user_id = $(this).attr("id");
+                //alert(user_id);
+                //alert(cod_id);
+                //Verificar se há valor na variável "user_id".
+                if(user_id !== ''){
+                    var dados = {
+                        user_id: user_id
+                    };
+                    $.post("detail_item.php", dados, function(retorna){
+                        //Carregar o conteúdo para o usuário
+                        $("#id_item").html(retorna);
+                        $('#item_detail').modal('show'); 
+                
+                    });
+                }
+        });
+        $(document).on('click','.close', function(){
+          $('#item_detail').modal('hide');
+        });
+
+        $(document).on('click','.menos', function(){
+          var id = $(this).attr("id");
+          var val = parseInt(document.getElementById('n'+id+'').value);
+          val2=document.getElementById('preco').value;
+          if (val==0){
+            $('#n'+id+'').focus();
+          }else{
+          $('#n'+id+'').val(val-1);
+          }
+          
+          $(this).calcular(val2);
+        });
+        $(document).on('click','.mais', function(){
+          var id = $(this).attr("id");
+          var val = parseInt(document.getElementById('n'+id+'').value);
+          val2=document.getElementById('preco').value;
+          $('#n'+id+'').val(val+1);
+          $(this).calcular(val2);
+        });
+        var $Cel = $("#celular");
+        $Cel.mask('00 00000-0000', {reverse: true});
+ 
+
+          $("#cel").mask('00 00000-0000', {reverse: true});
+          $("#valor").maskMoney();
+  });
+    </script>
+
+  </body>
+</html>
